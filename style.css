@@ -1,0 +1,267 @@
+ header {
+     min-width: 75%;
+     max-width: 75%;
+     z-index: 2;
+     position: absolute;
+ }
+
+ .selector-for-some-widget {
+     box-sizing: content-box;
+ }
+
+ .menu {
+     justify-content: space-around;
+     display: flex;
+     min-width: 100%;
+     background: transparent;
+     margin-top: 1%;
+
+ }
+
+ .headerBar {
+     justify-content: space-around;
+     background: transparent;
+     display: flex;
+     align-items: center;
+     min-width: 100%;
+     margin-top: 1%;
+
+ }
+
+ .slideText1 {
+     text-align: left;
+     font-size: 54px;
+     letter-spacing: 0px;
+     color: #FFFFFF;
+     opacity: 1;
+     max-width: 60%;
+ }
+
+
+ .headerText {
+     color: rgb(255, 255, 255);
+     font-size: 18px;
+     text-decoration: none;
+ }
+
+ .headerText1 {
+     color: rgb(255, 255, 255);
+     font-size: 18px;
+     text-decoration: none;
+     text-align: center;
+ }
+
+ .swiper-container {
+     max-width: 100%;
+     flex-direction: row;
+     align-items: center;
+     align-self: center;
+     justify-content: flex-end;
+     display: flex;
+     position: absolute;
+     z-index: 0;
+     bottom: 10px;
+ }
+
+ .bg {
+     max-width: 100%;
+     height: auto;
+ }
+
+ html,
+ body {
+     display: flex;
+     align-items: center;
+     justify-content: flex-start;
+     background: transparent;
+     min-width: 100%;
+     max-width: 100%;
+     font-family: Aktiv Light;
+     flex-direction: column;
+     background-color: rgb(255, 255, 255);
+ }
+
+ .main-container {
+     padding: 10px 15px;
+ }
+
+ .sociais {
+     display: flex;
+     align-items: flex-end;
+     justify-content: center;
+     flex-direction: column;
+     width: 5%;
+     height: 30%;
+     position: absolute;
+     z-index: 2;
+     margin-right: 5%;
+ }
+
+ .swiperText {
+     position: absolute;
+     z-index: 2;
+     font-size: 52px;
+     color: white;
+     max-width: 40%;
+     top: 20%;
+     margin-left: 10%;
+ }
+
+ .greenBtn {
+     position: absolute;
+     z-index: 2;
+     width: 15%;
+     height: 7%;
+     color: white;
+     background: #008051;
+     max-width: 40%;
+     top: 50%;
+     margin-left: 10%;
+     border-radius: 10px;
+     border: transparent;
+     justify-content: center;
+     align-items: center;
+     text-decoration: none;
+     cursor: pointer;
+ }
+ 
+ .textBtn {
+     font-size: 18px;
+     text-align: center;
+     text-decoration: none;
+    }
+    
+    .socialIcons {
+        margin-top: 30%;
+    }
+    
+    .whiteLine {
+        width: 100%;
+        height: 1px;
+        margin-top: 1%;
+        background: white;
+        align-self: center;
+        display: flex;
+    }
+    
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f900;
+        width: 100%;
+     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+     padding: 12px 16px;
+     z-index: 1;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+    }
+    
+    .dropdown-content1 {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f900;
+        width: 160%;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        padding: 12px 16px;
+        z-index: 1;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    
+    .dropdown:hover .dropdown-content1 {
+        display: block;
+    }
+    
+     .parteProdutos {
+         display: flex;
+         flex-direction: row;
+         justify-content: space-around;
+         margin-left: 10%;
+         margin-right: 10%;
+     }
+     .parteProdutosRight{
+         display: flex;
+         flex-direction: column;
+         font-family: Aktiv;
+         margin-top: 7%;
+     }
+    .cimentosText1{
+        color: #008051;
+        font-size: 48px;
+    }
+    .cimentosText2{
+        color: black;
+        font-size: 22px;
+    }
+    .cimentos {
+        max-width: 40%;
+        height: auto;
+        margin-top: 7%;
+    }
+    
+    @font-face {
+        font-family: "Aktiv";
+        src: url("/assets/fonts/AktivGroteskCorp-Regular.ttf");
+        src: url("/assets/fonts/AktivGroteskCorp-Regular.woff") format("woff"),
+        url("/assets/fonts/AktivGroteskCorp-Regular.otf") format("opentype"),
+    }
+    
+    
+    @font-face {
+        font-family: 'Aktiv Grotesk Corp';
+        src: url('AktivGroteskCorp-Italic.eot');
+        src: local('AktivGroteskCorp-Italic'),
+        url('AktivGroteskCorp-Italic.eot?#iefix') format('embedded-opentype'),
+         url('AktivGroteskCorp-Italic.woff2') format('woff2'),
+         url('AktivGroteskCorp-Italic.woff') format('woff'),
+         url('AktivGroteskCorp-Italic.ttf') format('truetype');
+     font-weight: normal;
+     font-style: italic;
+ }
+
+ @font-face {
+     font-family: 'Aktiv Light';
+     src: url('/assets/fonts/AktivGroteskCorp-Light.ttf');
+     src: local('/assets/fonts/AktivGroteskCorp-Light'),
+         url('/assets/fonts/AktivGroteskCorp-Light.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/AktivGroteskCorp-Light.woff2') format('woff2'),
+         url('/assets/fonts/AktivGroteskCorp-Light.woff') format('woff'),
+         url('/assets/fonts/AktivGroteskCorp-Light.ttf') format('truetype');
+     font-weight: 300;
+     font-style: normal;
+ }
+
+ @font-face {
+     font-family: 'Aktiv Grotesk Corp';
+     src: url('AktivGroteskCorp-Regular.eot');
+     src: local('AktivGroteskCorp-Regular'),
+         url('AktivGroteskCorp-Regular.eot?#iefix') format('embedded-opentype'),
+         url('AktivGroteskCorp-Regular.woff2') format('woff2'),
+         url('AktivGroteskCorp-Regular.woff') format('woff'),
+         url('AktivGroteskCorp-Regular.ttf') format('truetype');
+     font-weight: normal;
+     font-style: normal;
+ }
+
+ @font-face {
+     font-family: 'Aktiv Grotesk Corp';
+     src: url('AktivGroteskCorp-BoldItalic.eot');
+     src: local('AktivGroteskCorp-BoldItalic'),
+         url('AktivGroteskCorp-BoldItalic.eot?#iefix') format('embedded-opentype'),
+         url('AktivGroteskCorp-BoldItalic.woff2') format('woff2'),
+         url('AktivGroteskCorp-BoldItalic.woff') format('woff'),
+         url('AktivGroteskCorp-BoldItalic.ttf') format('truetype');
+     font-weight: bold;
+     font-style: italic;
+ }
